@@ -1,174 +1,162 @@
 basics:
-  name: "Maxime Doe"
-  label: "Senior Software Architect"
-  image: "https://i.pravatar.cc/300"
-  email: "maxime.doe@example.com"
-  phone: "+1 (555) 019-2834"
-  url: "https://maximedoe.dev"
-  summary: "Results-oriented Senior Software Architect with over 10 years of experience designing and implementing scalable, high-performance web applications. Proven track record of leading cross-functional teams, mentoring junior developers, and optimizing development workflows. Expert in modern JavaScript ecosystems, cloud infrastructure, and microservices architecture. Dedicated to writing clean, maintainable code and solving complex engineering challenges."
+  name: "Maxime Sainlot"
+  label: "Senior Software Engineer"
+  email: "maxime.sainlot@gmail.com"
+  phone: "+41 79 123 45 67"
+  url: "maximesainlot.com"
+  summary: "Senior Software Engineer with strong expertise in procedural modeling, C++, Python, and CI/CD. Experienced in embedded software, teaching, and research in computational geometry. Proven track record in infrastructure automation, database management, and parallel programming."
   location:
-    city: "San Francisco"
-    country: "CA, USA"
+    city: "Zweisimmen"
+    country: "CH"
   profiles:
     - network: "GitHub"
-      username: "maximedoe"
-      url: "https://github.com/maximedoe"
-    - network: "LinkedIn"
-      username: "maximedoe"
-      url: "https://linkedin.com/in/maximedoe"
-    - network: "Twitter"
-      username: "@maxcodes"
-      url: "https://twitter.com/maxcodes"
+      username: "fritzip"
+      url: "https://github.com/fritzip"
 
 skills:
-  - name: "Frontend"
+  - name: "Infrastructure & DevOps"
     keywords:
-      - name: "React / Next.js"
-        level: 5
-      - name: "TypeScript"
-        level: 5
-      - name: "Tailwind CSS"
+      - name: "Linux (System Administration)"
+      - name: "Docker"
+      - name: "GitHub Actions"
+      - name: "Jenkins"
+      - name: "Drone.io"
+      - name: "Nginx"
+      - name: "Traefik"
+      - name: "Apache"
+  - name: "Languages"
+    keywords:
+      - name: "Python"
         level: 4
-      - name: "WebAssembly"
+      - name: "Bash / Shell Scripting"
         level: 3
-  - name: "Backend"
+      - name: "Modern C++ (11->17)"
+        level: 3
+      - name: "SQL"
+        level: 3
+  - name: "Backend & Data"
     keywords:
-      - name: "Node.js"
-        level: 5
-      - name: "Python (FastAPI)"
-        level: 4
+      - name: "Django"
+      - name: "Flask"
       - name: "PostgreSQL"
-        level: 4
-      - name: "GraphQL"
-        level: 4
-  - name: "DevOps"
+      - name: "MySQL"
+      - name: "SQLite"
+      - name: "REST Design"
+      - name: "Postman"
+  - name: "Workflow & Methodologies"
     keywords:
-      - name: "AWS"
-        level: 4
-      - name: "Docker/K8s"
-        level: 3
-      - name: "Terraform"
-        level: 3
+      - name: "Git"
+      - name: "TDD"
+      - name: "Agile"
+      - name: "Jira"
+      - name: "Bitbucket"
 
 work:
-  - name: "Global Tech Solutions"
-    position: "Lead Software Architect"
-    url: "https://globaltech.example.com"
-    startDate: "2022-03"
+  - name: "vrbn AG"
+    position: "Senior Software Engineer"
+    location: "Uster, CH"
+    startDate: "2021"
     endDate: "Present"
-    summary: "Spearheading the migration of legacy monolithic systems to a cloud-native microservices architecture, improving system reliability and scalability."
+    summary: ""
     highlights:
-      - "Designed and implemented a domain-driven architecture that reduced service coupling by 60%."
-      - "Led a team of 15 engineers, establishing code review standards and automated testing protocols that increased code coverage from 40% to 90%."
-      - "Optimized cloud infrastructure costs, resulting in a 25% monthly saving on AWS."
-      - "Introduced internal developer tooling that reduced onboarding time for new hires by 50%."
-      - "Implemented a comprehensive analytics dashboard allowing stakeholders to visualize key performance metrics."
-      - "Refactored the core payment processing module, reducing transaction failures by 15%."
+      - "Procedural modeling (Houdini, Python, VEX)"
+      - "3D models importers (Unity C#, Unreal C++)"
+      - "CI/CD & Process automations (Github Action, Docker, Traefik)"
+      - "Web app interface for shop management (Flask, Marshmallow)"
+      - "Database migration and management (SQLite, PostgreSQL, SQLAlchemy)"
+      - "API design and unit testing"
 
-  - name: "Creative Startups Inc."
-    position: "Senior Full Stack Engineer"
-    url: "https://creativestartups.io"
-    startDate: "2018-06"
-    endDate: "2022-02"
-    summary: "Key contributor to the flagship SaaS product, taking it from MVP to Series B funding."
+  - name: "Dynamic Controls"
+    position: "Embedded Software Engineer"
+    location: "Christchurch, NZ"
+    startDate: "2020"
+    endDate: "2021"
+    summary: ""
     highlights:
-      - "Developed a real-time collaboration feature using WebSockets and Redis."
-      - "Mentored 4 junior developers who were subsequently promoted to mid-level roles."
-      - "Collaborated closely with designers to ensure faithful implementation of Figma prototypes."
+      - "Embedded development on wheelchair controllers (C, C++)"
+      - "Unit tests & Integration tests"
+      - "Infrastruture maintenance and improvements (Python)"
+      - "CI/CD & Process automations (Bash, Python, Buildbot, Bitbucket pipeline)"
+      - "Servers/services administration (Bash, Linux, Apache, Nginx, Docker)"
+      - "Test report database management (MySQL, Django)"
 
-  - name: "WebFlow Agency"
-    position: "Frontend Developer"
-    startDate: "2016-01"
-    endDate: "2018-05"
-    summary: "Developed responsive, pixel-perfect websites for high-profile clients."
+  - name: "Grenoble Alpes University"
+    position: "Teaching and Research Associate"
+    location: "St Martin d'H., FR"
+    startDate: "2018"
+    endDate: "2019"
+    summary: ""
     highlights:
-      - "Built over 20 custom WordPress themes and plugins."
-      - "Optimized frontend performance, achieving 95+ Google Lighthouse scores."
+      - "Teaching computer science to post-graduate students from beginner to advanced level"
 
-  - name: "Freelance"
-    position: "Junior Web Developer"
-    startDate: "2014-06"
-    endDate: "2015-12"
-    summary: "Provided web development services to local businesses."
+  - name: "Lyon University"
+    position: "PhD Student & Graduate Teaching Assistant"
+    location: "Villeurbanne, FR"
+    startDate: "2015"
+    endDate: "2019"
+    summary: "Subject: Algorithms for computing restricted Voronoi diagrams in high dimensions"
     highlights:
-      - "Delivered 15+ projects on time and within budget."
+      - "Parallel programming on geometrical structures (C++, OpenMP, CGAL, Eigen)"
+      - "Homemade viewer (OpenGL, ray tracing, GLSL)"
+      - "Space partitioning data structure (kd trees, slab-based trees, BVH)"
+      - "Numerical optimization (gradient descent, quasi-Newton's method, LBFGS)"
 
 education:
-  - institution: "University of Technology"
-    area: "Computer Science"
-    studyType: "Master of Science"
-    startDate: "2017-09"
-    endDate: "2019-06"
-    score: "Magna Cum Laude"
+  - institution: "Lyon University"
+    area: "Computer Graphics"
+    studyType: "Master of Science (MSc)"
+    startDate: "2014"
+    endDate: "2015"
+    location: "Villeurbanne, FR"
 
-  - institution: "State College"
-    area: "Information Systems"
-    studyType: "Bachelor of Science"
-    score: "Summa Cum Laude"
-    startDate: "2013-09"
-    endDate: "2017-06"
+  - institution: "National Institute of Applied Sciences (INSA Lyon)"
+    area: "Bioinformatics and Modeling"
+    studyType: "Engineer's degree"
+    startDate: "2010"
+    endDate: "2015"
+    location: "Villeurbanne, FR"
 
-awards:
-  - title: "Employee of the Year"
-    date: "2023"
-    awarder: "Global Tech Solutions"
-    summary: "Recognized for outstanding leadership."
-
-  - title: "Best Innovation Award"
-    date: "2021"
-    awarder: "Creative Startups Inc."
-    summary: "For developing a groundbreaking real-time collaboration feature."
-
-certificates:
-  - name: "AWS Certified Solutions Architect"
-    date: "2023-08"
-    issuer: "Amazon AWS"
-  - name: "Certified Kubernetes Administrator"
-    date: "2022-11"
-    issuer: "CNCF"
-
-languages:
-  - language: "English"
-    fluency: "Native"
-  - language: "French"
-    fluency: "Fluent"
-  - language: "Spanish"
-    fluency: "Conversational"
-
-interests:
-  - name: "Open Source"
-  - name: "Hiking"
-  - name: "Photography"
+  - institution: "François Villon High school"
+    area: ""
+    studyType: "High school diploma with honours"
+    startDate: "2010"
+    endDate: "2010"
+    location: "Beaugency, FR"
 
 publications:
-  - name: "Microservices Patterns in Practice"
-    publisher: "Tech Daily"
-    releaseDate: "2024-01"
-    url: "https://medium.com/@maximedoe/microservices"
-    summary: "A deep dive into real-world implementation challenges of distributed systems."
-  - name: "Scaling Node.js Applications"
-    publisher: "Node Weekly"
-    releaseDate: "2022-11"
-    url: "https://nodeweekly.com/issues/42"
-    summary: "Best practices for handling high-concurrency workloads."
+  - name: "Restricting Voronoi diagrams to meshes using corner validation"
+    publisher: "Symposium on Geometry Processing (SGP17)"
+    releaseDate: "2017"
+    url: "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13247"
+    summary: "M. Sainlot, V. Nivoliers, D. Attali"
 
-projects:
-  - name: "DevTracker"
-    description: "An open-source project management tool for developers."
-    url: "https://devtracker.example.com"
-    highlights:
-      - "Implemented task boards, issue tracking, and team collaboration features."
-      - "Achieved 1,000+ stars on GitHub and a growing community of contributors."
+languages:
+  - language: "French"
+    fluency: "Native"
+  - language: "English"
+    fluency: "Fluent (C2)"
+  - language: "Spanish"
+    fluency: "Elementary (A2)"
+  - language: "German"
+    fluency: "Elementary (A2)"
 
-  - name: "PhotoSnap"
-    description: "A mobile app for quick photo editing and sharing."
-    url: "https://photosnap.example.com"
-    highlights:
-      - "Developed using React Native, featuring filters, cropping, and social media integration."
-      - "Over 50,000 downloads on the App Store and Google Play."
+interests:
+  - name: "Mountains"
+    keywords:
+      [
+        "mountain biking",
+        "rock climbing",
+        "ski touring",
+        "trail running",
+        "mountaineering",
+      ]
+  - name: "Music"
+    keywords: ["piano", "guitar", "body percussion choir"]
+  - name: "Electronics"
+    keywords: ["raspberry pi", "arduino", "3d printing"]
 
 references:
-  - name: "Jane Smith"
-    reference: "Managing Director at Global Tech Solutions."
-  - name: "John Doe"
-    reference: "CTO at Creative Startups Inc."
+  - name: "Paul Atienza"
+    reference: "Manager at Dynamic Controls"
+  - name: "Vincent Nivoliers"
+    reference: "PhD Supervisor"
