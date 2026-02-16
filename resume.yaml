@@ -4,7 +4,7 @@ basics:
   email: "maxime.sainlot@gmail.com"
   phone: "+41 78 240 30 18"
   url: "maximesainlot.com"
-  summary: "Senior Software Engineer with strong expertise in procedural modeling, C++, Python, and CI/CD. Experienced in embedded software, teaching, and research in computational geometry. Proven track record in infrastructure automation, database management, and parallel programming."
+  summary: "Senior Software Engineer with strong expertise in System administration, C++, Python, and CI/CD. Experienced in embedded software, teaching, and research in computational geometry. Proven track record in infrastructure automation, database management, and parallel programming."
   location:
     city: "Zweisimmen"
     country: "CH"
@@ -12,44 +12,51 @@ basics:
     - network: "GitHub"
       username: "fritzip"
       url: "https://github.com/fritzip"
+    - network: "LinkedIn"
+      username: "maxime-sainlot"
+      url: "https://www.linkedin.com/in/maxime-sainlot/"
+    - network: "StackOverflow"
+      username: "maxime-sainlot"
+      url: "https://stackoverflow.com/users/2935371/fritzip"
 
 skills:
-  - name: "Infrastructure & DevOps"
-    keywords:
-      - name: "Linux (System Administration)"
-      - name: "Docker"
-      - name: "GitHub Actions"
-      - name: "Jenkins"
-      - name: "Drone.io"
-      - name: "Nginx"
-      - name: "Traefik"
-      - name: "Apache"
   - name: "Languages"
     keywords:
       - name: "Python"
         level: 4
-      - name: "Bash / Shell Scripting"
-        level: 3
-      - name: "Modern C++ (11->17)"
+      - name: "C++"
+        level: 4
+      - name: "Bash"
         level: 3
       - name: "SQL"
         level: 3
-  - name: "Backend & Data"
+
+  - name: "Development & Computations"
+    keywords:
+      - name: "Computational Geometry"
+      - name: "Procedural Modeling"
+      - name: "Parallel Programming"
+      - name: "3D Rendering"
+      - name: "Algorithm Design"
+      - name: "Data Structure Optimization"
+
+  - name: "Web & Backend"
     keywords:
       - name: "Django"
       - name: "Flask"
+      - name: "Vue.js"
       - name: "PostgreSQL"
-      - name: "MySQL"
-      - name: "SQLite"
-      - name: "REST Design"
-      - name: "Postman"
-  - name: "Workflow & Methodologies"
+      - name: "SQLAlchemy"
+      - name: "REST APIs"
+
+  - name: "DevOps & Infrastructure"
     keywords:
+      - name: "Linux Administration"
+      - name: "Docker"
+      - name: "CI/CD (GitHub Actions, Jenkins)"
+      - name: "Nginx / Traefik"
       - name: "Git"
-      - name: "TDD"
-      - name: "Agile"
-      - name: "Jira"
-      - name: "Bitbucket"
+      - name: "Agile / Scrum"
 
 work:
   - name: "vrbn AG"
@@ -59,12 +66,23 @@ work:
     endDate: "Present"
     summary: ""
     highlights:
-      - "Procedural modeling (Houdini, Python, VEX)"
-      - "3D models importers (Unity C#, Unreal C++)"
-      - "CI/CD & Process automations (Github Action, Docker, Traefik)"
-      - "Web app interface for shop management (Flask, Marshmallow)"
-      - "Database migration and management (SQLite, PostgreSQL, SQLAlchemy)"
+      - "Web app interface for shop management"
+      - "CI/CD & Process automations"
+      - "Database migration and management"
       - "API design and unit testing"
+      - "Procedural modeling in Houdini for 3D assets generation"
+      - "3D models importers for real-time rendering engines (Unity and Unreal)"
+    keywords:
+      - "Python"
+      - "C#"
+      - "C++"
+      - "GitHub Actions"
+      - "Docker"
+      - "Traefik"
+      - "Flask"
+      - "Serialization"
+      - "PostgreSQL"
+      - "SQLAlchemy"
 
   - name: "Dynamic Controls"
     position: "Embedded Software Engineer"
@@ -73,12 +91,23 @@ work:
     endDate: "2021"
     summary: ""
     highlights:
-      - "Embedded development on wheelchair controllers (C, C++)"
+      - "Embedded development on wheelchair controllers"
       - "Unit tests & Integration tests"
-      - "Infrastruture maintenance and improvements (Python)"
-      - "CI/CD & Process automations (Bash, Python, Buildbot, Bitbucket pipeline)"
-      - "Servers/services administration (Bash, Linux, Apache, Nginx, Docker)"
-      - "Test report database management (MySQL, Django)"
+      - "Infrastruture maintenance and improvements"
+      - "CI/CD & Process automations"
+      - "Servers/services administration"
+      - "Test report database management"
+    keywords:
+      - "C/C++"
+      - "Python"
+      - "Bash"
+      - "Buildbot"
+      - "Bitbucket"
+      - "Apache"
+      - "Nginx"
+      - "Docker"
+      - "MySQL"
+      - "Django"
 
   - name: "Grenoble Alpes University"
     position: "Teaching and Research Associate"
@@ -88,6 +117,11 @@ work:
     summary: ""
     highlights:
       - "Teaching computer science to post-graduate students from beginner to advanced level"
+    keywords:
+      - "Python"
+      - "Java"
+      - "Object Oriented Programming"
+      - "Data Structures and Algorithms"
 
   - name: "Lyon University"
     position: "PhD Student & Graduate Teaching Assistant"
@@ -96,10 +130,16 @@ work:
     endDate: "2019"
     summary: "Subject: Algorithms for computing restricted Voronoi diagrams in high dimensions"
     highlights:
-      - "Parallel programming on geometrical structures (C++, OpenMP, CGAL, Eigen)"
-      - "Homemade viewer (OpenGL, ray tracing, GLSL)"
-      - "Space partitioning data structure (kd trees, slab-based trees, BVH)"
-      - "Numerical optimization (gradient descent, quasi-Newton's method, LBFGS)"
+      - "Parallel programming on geometrical structures"
+      - "Homemade ray tracing engine for visualization and debugging"
+      - "Space partitioning data structure (kD trees and BVH)"
+      - "Numerical optimization (gradient descent, LBFGS)"
+    keywords:
+      - "C++"
+      - "OpenMP"
+      - "CGAL"
+      - "Eigen"
+      - "OpenGL"
 
 education:
   - institution: "Lyon University"
@@ -119,15 +159,14 @@ education:
   - institution: "François Villon High school"
     area: ""
     studyType: "High school diploma with honours"
-    startDate: "2010"
-    endDate: "2010"
+    date: "2010"
     location: "Beaugency, FR"
 
 publications:
   - name: "Restricting Voronoi diagrams to meshes using corner validation"
     publisher: "Symposium on Geometry Processing (SGP17)"
     releaseDate: "2017"
-    url: "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13247"
+    url: "https://hal.science/hal-01626140v1/file/corner-validated-rvd.pdf"
     summary: "M. Sainlot, V. Nivoliers, D. Attali"
 
 languages:
@@ -141,19 +180,32 @@ languages:
     fluency: "Elementary (A2)"
 
 interests:
-  - name: "Mountains"
-    keywords:
-      [
-        "mountain biking",
-        "rock climbing",
-        "ski touring",
-        "trail running",
-        "mountaineering",
-      ]
-  - name: "Music"
-    keywords: ["piano", "guitar", "body percussion choir"]
-  - name: "Electronics"
-    keywords: ["raspberry pi", "arduino", "3d printing"]
+  - name: "Biking"
+    icon: "fas fa-biking"
+  # - name: "Rock climbing"
+  #   icon: "fas fa-mountain"
+  # - name: "Ski touring"
+  #   icon: "fas fa-skiing-nordic"
+  # - name: "Trail running"
+  #   icon: "fas fa-running"
+  # - name: "Mountaineering"
+  #   icon: "fas fa-hiking"
+  # - name: "Piano"
+  #   icon: "fas fa-music"
+  - name: "Guitar"
+    icon: "fas fa-guitar"
+  - name: "Tinkering"
+    icon: "fas fa-tools"
+  - name: "Coffee"
+    icon: "fas fa-coffee"
+  # - name: "Choir"
+  #   icon: "fas fa-users"
+  # - name: "Raspberry Pi"
+  #   icon: "fab fa-raspberry-pi"
+  # - name: "Arduino"
+  #   icon: "fas fa-microchip"
+  # - name: "3D Printing"
+  #   icon: "fas fa-cube"
 
 references:
   - name: "Paul Atienza"
