@@ -1,4 +1,4 @@
-# My Resume
+# Maxime Sainlot - Resume
 
 This resume is built with [Breezy CV](https://github.com/fritzip/breezy-cv). It allows you to maintain your CV in a simple YAML format and automatically generates a beautiful, responsive website and PDF.
 
