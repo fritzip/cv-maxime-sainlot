@@ -1,27 +1,28 @@
 {
-  "name": "cv-perso",
+  "name": "cv-maxime-sainlot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "breezy-cv build",
-    "serve": "breezy-cv serve"
+    "build": "npx breezy-cv build",
+    "serve": "npx serve public",
+    "dev": "npx breezy-cv build && (npm run watch & npm run serve)",
+    "watch": "nodemon -e yaml,json,css,ejs,js --watch resume.yaml --watch config.yaml --watch themes --exec \"npm run build\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fritzip/cv-perso.git"
+    "url": "git+https://github.com/fritzip/cv-maxime-sainlot.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/fritzip/cv-perso/issues"
+    "url": "https://github.com/fritzip/cv-maxime-sainlot/issues"
   },
-  "homepage": "https://github.com/fritzip/cv-perso#readme",
+  "homepage": "https://github.com/fritzip/cv-maxime-sainlot#readme",
   "dependencies": {
-    "breezy-cv": "github:fritzip/breezy-cv",
-    "static-web-cv": "github:fritzip/ezcv"
+    "breezy-cv": "github:fritzip/breezy-cv"
   }
 }

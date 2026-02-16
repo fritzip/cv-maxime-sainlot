@@ -1,4 +1,12 @@
-node_modules
-public
-.DS_Store
+# Node & Build artifacts
+node_modules/
+public/
+.breezy-cv-state.json
+
+# Logs
 *.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
