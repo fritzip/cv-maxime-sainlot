@@ -20,7 +20,7 @@ style:
 
 # Toggles
 features:
-  showPhoto: true
+  showPhoto: false
   showIcons: true
   showSkillBars: true
   showLocation: true
