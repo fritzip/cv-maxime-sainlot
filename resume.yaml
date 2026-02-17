@@ -37,7 +37,6 @@ skills:
       - name: "Procedural Modeling"
       - name: "Parallel Programming"
       - name: "3D Rendering"
-      - name: "Algorithm Design"
       - name: "Data Structure Optimization"
 
   - name: "Web & Backend"
@@ -52,10 +51,10 @@ skills:
   - name: "DevOps & Infrastructure"
     keywords:
       - name: "Linux Administration"
+      - name: "Git"
       - name: "Docker"
       - name: "CI/CD (GitHub Actions, Jenkins)"
       - name: "Nginx / Traefik"
-      - name: "Git"
       - name: "Agile / Scrum"
 
 work:
