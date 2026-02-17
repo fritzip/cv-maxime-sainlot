@@ -16,8 +16,14 @@ basics:
       username: "maxime-sainlot"
       url: "https://www.linkedin.com/in/maxime-sainlot/"
     - network: "StackOverflow"
-      username: "maxime-sainlot"
+      username: "fritzip"
       url: "https://stackoverflow.com/users/2935371/fritzip"
+    - network: "WhatsApp"
+      username: "+33 6 31 20 17 77"
+      url: "https://wa.me/33631201777"
+    - network: "Telegram"
+      username: "fritzip"
+      url: "https://t.me/fritzip"
 
 skills:
   - name: "Languages"
