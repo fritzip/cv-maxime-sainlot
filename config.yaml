@@ -1,8 +1,8 @@
 theme: "modern" # "modern" or "classic"
 
 # Asset overrides
-avatar: "img/favicon.svg"
-favicon: "img/favicon.svg"
+avatar: "img/favicon.png"
+favicon: "img/favicon.png"
 
 style:
   # Colors
