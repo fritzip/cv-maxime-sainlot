@@ -179,8 +179,6 @@ languages:
     fluency: "Native"
   - language: "English"
     fluency: "Fluent (C2)"
-  - language: "Spanish"
-    fluency: "Elementary (A2)"
   - language: "German"
     fluency: "Elementary (A2)"
 
