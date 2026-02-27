@@ -29,39 +29,43 @@ skills:
   - name: "Languages"
     keywords:
       - name: "Python"
-        level: 4
       - name: "C++"
-        level: 4
       - name: "Bash"
-        level: 3
       - name: "SQL"
-        level: 3
 
-  - name: "Development & Computations"
+  - name: "Web & Backend"
+    keywords:
+      # - name: "Django"
+      - name: "Flask"
+      - name: "Vue.js"
+      - name: "PostgreSQL"
+      # - name: "SQLAlchemy"
+      - name: "REST APIs"
+
+  - name: "DevOps & SysAdmin"
+    keywords:
+      - name: "Linux"
+      - name: "Docker"
+      - name: "CI/CD"
+      # - name: "Nginx"
+      - name: "Traefik"
+
+  - name: "Specialized Domains"
     keywords:
       - name: "Computational Geometry"
       - name: "Procedural Modeling"
       - name: "Parallel Programming"
       - name: "3D Rendering"
-      - name: "Data Structure Optimization"
 
-  - name: "Web & Backend"
+  - name: "Philosophy & Methodologies"
     keywords:
-      - name: "Django"
-      - name: "Flask"
-      - name: "Vue.js"
-      - name: "PostgreSQL"
-      - name: "SQLAlchemy"
-      - name: "REST APIs"
-
-  - name: "DevOps & Infrastructure"
-    keywords:
-      - name: "Linux Administration"
+      - name: "Taking Ownership"
+      # - name: "Agile"
+      - name: "Scrum"
+      - name: "TDD"
       - name: "Git"
-      - name: "Docker"
-      - name: "CI/CD (GitHub Actions, Jenkins)"
-      - name: "Nginx / Traefik"
-      - name: "Agile / Scrum"
+      - name: "Code Review"
+      - name: "Mentoring"
 
 work:
   - name: "vrbn AG"
@@ -71,10 +75,10 @@ work:
     endDate: "Present"
     summary: ""
     highlights:
-      - "Web app interface for shop management"
-      - "CI/CD & Process automations"
-      - "Database migration and management"
-      - "API design and unit testing"
+      - "Tech lead for the development of a web-based shop management system"
+      - "Implemented CI/CD & Process automations"
+      - "Database design, management and migration"
+      - "Designed APIs and unit testing framework"
       - "Procedural modeling in Houdini for 3D assets generation"
       - "3D models importers for real-time rendering engines (Unity and Unreal)"
     keywords:
@@ -98,8 +102,7 @@ work:
     highlights:
       - "Embedded development on wheelchair controllers"
       - "Unit tests & Integration tests"
-      - "Infrastruture maintenance and improvements"
-      - "CI/CD & Process automations"
+      - "Improved CI/CD & Process automations"
       - "Servers/services administration"
       - "Test report database management"
     keywords:
@@ -181,6 +184,12 @@ languages:
     fluency: "Fluent (C2)"
   - language: "German"
     fluency: "Elementary (A2)"
+  # - language: "Spanish"
+  #   fluency: "Elementary (A2)"
+  # - language: "Russian"
+  #   fluency: "Basic (A1)"
+  # - language: "Sign Language"
+  #   fluency: "Basic (A1)"
 
 interests:
   - name: "Biking"
@@ -209,9 +218,3 @@ interests:
   #   icon: "fas fa-microchip"
   # - name: "3D Printing"
   #   icon: "fas fa-cube"
-
-references:
-  - name: "Paul Atienza"
-    reference: "Manager at Dynamic Controls"
-  - name: "Vincent Nivoliers"
-    reference: "PhD Supervisor"
