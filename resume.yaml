@@ -50,7 +50,7 @@ skills:
       # - name: "Nginx"
       - name: "Traefik"
 
-  - name: "Specialized Domains"
+  - name: "Specializations"
     keywords:
       - name: "Computational Geometry"
       - name: "Procedural Modeling"
@@ -64,8 +64,8 @@ skills:
       - name: "Scrum"
       - name: "TDD"
       - name: "Git"
-      - name: "Code Review"
-      - name: "Mentoring"
+      # - name: "Code Review"
+      # - name: "Mentoring"
 
 work:
   - name: "vrbn AG"
